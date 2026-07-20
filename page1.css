@@ -24,7 +24,7 @@
 main{
     padding: 40px;
     background-color:black;
-background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTQ2bTFmd2dicHltNWxnNzFqNjlldGVkemdkMGQ4ZWJidm4zNndpNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J9KU2KmTwzptMD6/giphy.webp");    
+background-image: url("./BG.webp");    
     min-height: 90vh;
     display: grid;
     grid-template-columns: 50% 50%;
