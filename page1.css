@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100px;
+    background-color: rgba(3, 3, 3, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    color: white;
+}
+.outer>h1{
+    font-size: 40px;
+}
+.outer>ul{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    list-style: none;
+}
+main{
+    padding: 40px;
+    background-color:black;
+background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTQ2bTFmd2dicHltNWxnNzFqNjlldGVkemdkMGQ4ZWJidm4zNndpNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1J9KU2KmTwzptMD6/giphy.webp");    
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+main>.left{
+    position: relative;
+}
+main>.right{
+    background-color: rgba(67, 67, 67, 0.5);
+}
+.left>h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    background-color: rgba(67, 67, 67, 0.5);
+    color: wheat;
+}
+span{
+    color: white;
+    background: linear-gradient(to top right, wheat,black);
+    font-style: italic;
+}
+.left>marquee{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgba(67, 67, 67, 0.5);
+}
+.left>p{
+    font-size: 23px;
+    height: 60vh;
+     text-align: justify;
+     padding-left: 15px;
+     padding-right: 15px;
+     letter-spacing: 2px;
+     word-spacing: 10px;
+    color: white;
+    background-color: rgba(67, 67, 67, 0.5);
+}
+.right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right>img{
+    object-fit: cover;
+    height: 75%;
+    width: 50%;
+    border-radius: 55%;
+    border: 2px solid black;
+    background-color: rgba(67, 67, 67, 0.5);
+}
+.outer>ul>li>a{
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+.outer>ul>li>a:hover{
+    transform: scale(1.1);
+    border-bottom: 4px solid wheat;
+    color: white;
+}
+span:hover{
+    background:linear-gradient(to bottom right,white,grey);
+    color: black;
+}
